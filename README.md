@@ -52,4 +52,4 @@ PUBLIC_IP=54.212.43.102
 
 ````
 
-This clean key-value format allows downstream tools, shell scripts, or local SSH configurations to immediately ingest the new environment's IP address.
+This clean key-value format allows downstream tools, shell scripts, or local SSH configurations to immediately ingest the new environment's IP address. Important to note that there's no networking or provision for SSH via port 22, or even HTTP/S access.
